@@ -323,7 +323,7 @@ public abstract class ExtractApksCommand {
           e);
     }
     System.err.printf(
-        "The APKs have been extracted in the directory: %s%n", outputDirectoryPath.toString());
+        "Apk 已经解压至目录: %s，如有装不上，请联系90。%n，", outputDirectoryPath.toString());
     return builder.build();
   }
 
