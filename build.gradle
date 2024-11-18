@@ -37,7 +37,9 @@ configurations {
 dependencies {
 
 //    compileOnly files(project.buildDir.path + "/classes/java/main")
-    compileOnly files("libs/bundletool.jar")
+
+    //在编译bundletool jar 需要去掉这个
+    compileOnly files("build/libs/bundletool.jar")
 
     implementation "com.android.tools:common:31.3.0-alpha14"
     implementation "com.android.tools:r8:3.3.28"
