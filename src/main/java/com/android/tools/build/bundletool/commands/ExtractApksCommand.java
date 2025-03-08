@@ -322,7 +322,7 @@ public abstract class ExtractApksCommand {
           String.format("Error while processing the APK Set archive '%s'.", getApksArchivePath()),
           e);
     }
-    System.err.printf(
+    System.out.printf(
         "Apk 已经解压至目录: %s，如有装不上，请联系90。%n，", outputDirectoryPath.toString());
     return builder.build();
   }
